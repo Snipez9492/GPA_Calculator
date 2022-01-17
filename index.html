@@ -5,11 +5,129 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
     <title>GPA</title>
 </head>
 
 <body>
-    <h1><strong><span style="color: olive;">GPA Calculator</span></strong></h1>
+    <div class="container" id="now">
+        <h1><strong><span style="color: olive;">GPA Calculator</span></strong></h1>
+        <hr>
+        <fieldset>
+            <table id="focus">
+                <tr>
+                    <th>Course</th>
+                    <th>Credits</th>
+                    <th>Grades</th>
+                </tr>
+                <tr>
+                    <td><label for=""><input type="text" name="Course" placeholder="Course Names" id="course"></label>
+                    </td>
+                    <td><label for=""><input type="text" name="Credits" placeholder="Number Of Credits"
+                                id="credits"></label></td>
+                    <td class="data">
+                        <label for="">
+                            <select name="Grades" id="letter">
+                                <option value="option">Any</option <option value="A+">A+</option>
+                                <option value="A+">A+</option>
+                                <option value="A">A</option>
+                                <option value="A-">A-</option>
+                                <option value="B+">B+</option>
+                                <option value="B">B</option>
+                                <option value="B-">B-</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="C-">C-</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for=""><input type="text" name="Course" placeholder="Course Names" id="course"></label>
+                    </td>
+                    <td><label for=""><input type="text" name="Credits" placeholder="Number Of Credits"
+                                id="credits"></label></td>
+                    <td class="data">
+                        <label for="">
+                            <select name="Grades" id="letter">
+                                <option value="option">Any</option <option value="A+">A+</option>
+                                <option value="A+">A+</option>
+                                <option value="A">A</option>
+                                <option value="A-">A-</option>
+                                <option value="B+">B+</option>
+                                <option value="B">B</option>
+                                <option value="B-">B-</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="C-">C-</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for=""><input type="text" name="Course" placeholder="Course Names" id="course"></label>
+                    </td>
+                    <td><label for=""><input type="text" name="Credits" placeholder="Number Of Credits"
+                                id="credits"></label></td>
+                    <td class="data">
+                        <label for="">
+                            <select name="Grades" id="letter">
+                                <option value="option">Any</option <option value="A+">A+</option>
+                                <option value="A+">A+</option>
+                                <option value="A">A</option>
+                                <option value="A-">A-</option>
+                                <option value="B+">B+</option>
+                                <option value="B">B</option>
+                                <option value="B-">B-</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="C-">C-</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for=""><input type="text" name="Course" placeholder="Course Names" id="course"></label>
+                    </td>
+                    <td><label for=""><input type="text" name="Credits" placeholder="Number Of Credits"
+                                id="credits"></label></td>
+                    <td class="data">
+                        <label for="">
+                            <select name="Grades" id="letter">
+                                <option value="option">Any</option <option>
+                                </option>
+                                <option value="A+">A+</option>
+                                <option value="A">A</option>
+                                <option value="A-">A-</option>
+                                <option value="B+">B+</option>
+                                <option value="B">B</option>
+                                <option value="B-">B-</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="C-">C-</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                        </label>
+                    </td>
+                </tr>
+            </table>
+            <button id="enter" onclick="total()">Enter</button>
+            <button id="remove" onclick="clear()">Clear</button>
+            <div id="show"></div>
+        </fieldset>
+    </div>
 </body>
+<script src="javascript/gpa.js"></script>
 
 </html>
